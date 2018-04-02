@@ -1,0 +1,6 @@
+
+name = '王淋'
+
+age = 19
+heigt = 130
+print(name,age,heigt)

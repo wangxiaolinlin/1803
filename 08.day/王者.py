@@ -1,23 +1,24 @@
+#coding = utf-8
 zhanghao = '123'
 mima = '123'
 count = 0
 a = True
 while a:
-	zh = input('请输入账号: ')
-	mm = input('请输入密码: ')
+	zh = input('q 王')
+	mm = input('a: ')
 	if zh == zhanghao and mm == mima:
-		print('登录成功')
-		yx = int(input('请选择英雄 0:ADC 1:肉 2:法师'))
+		print('yes')
+		yx = int(input(' 0:ADC 1: 2:'))
 		if yx == 0:
-			print('鲁班')
+			print('b')
 		elif yx == 1:
-			print('程咬金')
+			print('cyj')
 		elif yx == 2:
-			print('王昭君')
+			print('wzj')
 		a = False
 	else:
-		print('账号或密码错误')
+		print('no')
 		count += 1
 		if count == 3:
 			a = False
-			print('输入次数过多，退出')
+			print('gun')

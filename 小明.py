@@ -1,5 +1,5 @@
-shengao = int(input('请输入你的身高: '))
-heigt = int(input('请输入你的体重: '))
+shengao = float(input('请输入你的身高: '))
+heigt = int(input('请输入你的体重(公斤): '))
 a = (heigt/(shengao*shengao))
 if a < 18.5:
 	print('低于18.5,过轻')

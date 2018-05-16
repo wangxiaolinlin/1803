@@ -15,7 +15,7 @@ def aa():
 		for k,v in i.items():
 			print("%s:%s"%(k,v))
 def bb():
-	find = input("请输入您要查询的学号:")
+	find = input("请输入您要查询的学生学号:")
 	for dic in list:
 		if find == dic["id"]:
 			print("学号:%s 姓名:%s 学科:%s 分数:%s"%(dic['id'],dic['name'],dic['subjects'],dic['grade']))
